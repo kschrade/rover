@@ -42,7 +42,7 @@ composition-js = []
 
 [dependencies]
 # https://github.com/apollographql/federation-rs dependencies
-apollo-federation-types = "0.5"
+apollo-federation-types = "0.6"
 # apollo-federation-types = { path = "../federation-rs/apollo-federation-types" }
 # apollo-federation-types = { git = "https://github.com/apollographql/federation-rs", branch = "main" }
 
@@ -99,4 +99,4 @@ reqwest = { version = "0.11", default-features = false, features = [
     "blocking",
     "native-tls-vendored",
 ] }
-serial_test = "0.7"
+serial_test = "0.8"
